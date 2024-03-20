@@ -9,6 +9,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    color: grey;
   }
   
   .pantalla {
@@ -24,6 +25,7 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 5px;
+    
   }
   
   .boton {
@@ -34,6 +36,8 @@ body {
     text-align: center;
     font-size: 16px;
     cursor: pointer;
+    color: black;
+    background-color: cornflowerblue;
   }
   
   .boton:hover {
@@ -41,5 +45,5 @@ body {
   }
   
   .operador {
-    background-color: #fafafa;
+    background-color: orange;
   }
